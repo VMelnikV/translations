@@ -1,0 +1,615 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="menu_aboutToolStripMenuItem" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="menu_profileStatisticsToolStripMenuItem" xml:space="preserve">
+    <value>Показати статистику</value>
+  </data>
+  <data name="menu_profileExportToolStripMenuItem" xml:space="preserve">
+    <value>Експорутвати</value>
+  </data>
+  <data name="menu_aboutWebsiteToolStripMenuItem" xml:space="preserve">
+    <value>Відвідти GitHub</value>
+  </data>
+  <data name="menu_profileImportToolStripMenuItem" xml:space="preserve">
+    <value>Імпортувати</value>
+  </data>
+  <data name="menu_aboutSymbolReferenceToolStripMenuItem" xml:space="preserve">
+    <value>Довідка про символ...</value>
+  </data>
+  <data name="menu_aboutUpdateToolStripMenuItem" xml:space="preserve">
+    <value>Оновити...</value>
+  </data>
+  <data name="ctl_btnApply" xml:space="preserve">
+    <value>Застосувати налаштування</value>
+  </data>
+  <data name="_adsFinishSetupAds_desc" xml:space="preserve">
+    <value>Ця функція відключить "Давайте завершимо налаштування цього комп'ютера" та іншу рекламу.</value>
+  </data>
+  <data name="_adsLockScreenAds_desc" xml:space="preserve">
+    <value>Ця функція вимкне підказки та рекламу на екрані блокування.</value>
+  </data>
+  <data name="_adsPersonalizedAds_desc" xml:space="preserve">
+    <value>Ця функція вимкне персональну рекламу.</value>
+  </data>
+  <data name="_adsSettingAds_desc" xml:space="preserve">
+    <value>Ця функція вимкне рекламу в налаштуваннях.</value>
+  </data>
+  <data name="_adsStartmenuAds_desc" xml:space="preserve">
+    <value>Ця функція вимкне рекламу в меню "Пуск".</value>
+  </data>
+  <data name="_adsTailoredExperiences_desc" xml:space="preserve">
+    <value>Функція "Індивідуальні рекомендації" дозволяє Microsoft отримувати інформацію від вас для надання персональних порад, реклами та рекомендацій. Багато хто назвав би це телеметрією або навіть шпигунством.</value>
+  </data>
+  <data name="_adsFileExplorerAds_desc" xml:space="preserve">
+    <value>Ця функція вимкне рекламу в Провіднику.</value>
+  </data>
+  <data name="_adsTipsAndSuggestions_desc" xml:space="preserve">
+    <value>Ця функція вимкне загальні поради та рекламу.</value>
+  </data>
+  <data name="_adsWelcomeExperienceAds_desc" xml:space="preserve">
+    <value>Ця функція вимкне рекламу під час привітання.</value>
+  </data>
+  <data name="_aiRecallCurrentUser_desc" xml:space="preserve">
+    <value>Ця функція запобігає збереженню знімків екрана за допомогою функції «Відкликати».</value>
+  </data>
+  <data name="_edgeBrowserSignin_desc" xml:space="preserve">
+    <value>Цей параметр контролює, чи можна використовувати авторизацію в Microsoft Edge, для подальшого входу в інші сервіси чи сайти з використанням авторизації в Edge (єдиний вхід).</value>
+  </data>
+  <data name="_edgeDefaultTopSites_desc" xml:space="preserve">
+    <value>Приховати найпопулярніші сайти за замовчуванням на сторінці нової вкладки в Microsoft Edge</value>
+  </data>
+  <data name="_edgeDefautBrowserSetting_desc" xml:space="preserve">
+    <value>Змусити Edge припинити запитувати зміну браузера за замовчуванням.</value>
+  </data>
+  <data name="_edgeEdgeCollections_desc" xml:space="preserve">
+    <value>Надає користувачам доступ до функції «Колекції», що дозволяє їм ефективніше збирати, упорядковувати, ділитися та експортувати контент за допомогою інтеграції з Office.</value>
+  </data>
+  <data name="_edgeEdgeShoppingAssistant_desc" xml:space="preserve">
+    <value>Функція «Покупки в Microsoft Edge» автоматично знайде для вас найкращі ціни та купони в Інтернеті під час здійснення покупок.</value>
+  </data>
+  <data name="_edgeFirstRunExperience_desc" xml:space="preserve">
+    <value>Приховати головний екран та розділ «Початок роботи» під час першого запуску (починаючи з версії 80).</value>
+  </data>
+  <data name="_edgeGamerMode_desc" xml:space="preserve">
+    <value>Ігровий режим Microsoft Edge дозволяє геймерам персоналізувати свій браузер за допомогою ігрових тем і надає їм можливість увімкнути режим ефективності для ігор на ПК, стрічку ігор на нових вкладках, програми на бічній панелі для геймерів тощо.</value>
+  </data>
+  <data name="_edgeHubsSidebar_desc" xml:space="preserve">
+    <value>Це вимкне Copilot у Microsoft Edge.</value>
+  </data>
+  <data name="_edgeImportOnEachLaunch_desc" xml:space="preserve">
+    <value>Дозволити імпорт даних з інших браузерів під час кожного запуску Microsoft Edge.</value>
+  </data>
+  <data name="_edgeStartupBoost_desc" xml:space="preserve">
+    <value>Дозволяє процесам Microsoft Edge ініціалізуватися під час запуску операційної системи та перезапускатися у фоновому режимі після закриття останнього вікна браузера.</value>
+  </data>
+  <data name="_edgeTabPageQuickLinks_desc" xml:space="preserve">
+    <value>За замовчуванням, коли ви відкриваєте нову вкладку, ви бачите рядок пошуку Bing та зображення дня Bing як фон сторінки. Для підтримуваних веб-сайтів швидкі посилання на сторінці нової вкладки можуть відображати останні оновлення безпосередньо на плитці.</value>
+  </data>
+  <data name="_edgeUserFeedback_desc" xml:space="preserve">
+    <value>Дозволяє надсилати відгуки, пропозиції або брати участь в опитуваннях клієнтів, а також повідомляти про проблеми з браузером.</value>
+  </data>
+  <data name="_adsFileExplorerAds" xml:space="preserve">
+    <value>Вимкнути рекламу в Провіднику.</value>
+  </data>
+  <data name="_adsFinishSetupAds" xml:space="preserve">
+    <value>Вимкнути рекламу, яка відображається після завершення налаштування</value>
+  </data>
+  <data name="_adsLockScreenAds" xml:space="preserve">
+    <value>Вимкнути підказки та рекламу на екрані блокування</value>
+  </data>
+  <data name="_adsPersonalizedAds" xml:space="preserve">
+    <value>Вимкнути персоналізовану рекламу</value>
+  </data>
+  <data name="_adsSettingAds" xml:space="preserve">
+    <value>Вимкнути рекламу в налаштуваннях</value>
+  </data>
+  <data name="_adsStartmenuAds" xml:space="preserve">
+    <value>Вимкнути рекламу в меню "Пуск"</value>
+  </data>
+  <data name="_adsTailoredExperiences" xml:space="preserve">
+    <value>Вимкнути персональні рекомендації</value>
+  </data>
+  <data name="_adsTipsAndSuggestions" xml:space="preserve">
+    <value>Вимкнути загальні поради та рекламу</value>
+  </data>
+  <data name="_adsWelcomeExperienceAds" xml:space="preserve">
+    <value>Вимкнути вітальну рекламу</value>
+  </data>
+  <data name="_aiCopilotTaskbar" xml:space="preserve">
+    <value>Не показувати Copilot на панелі завдань</value>
+  </data>
+  <data name="_aiRecallCurrentUser" xml:space="preserve">
+    <value>Не дозволяйте Windows зберігати знімки екрана</value>
+  </data>
+  <data name="_aiRecallLocalMachine" xml:space="preserve">
+    <value>Не дозволяти знімки всієї системи</value>
+  </data>
+  <data name="_edgeBrowserSignin" xml:space="preserve">
+    <value>Вимкнення служб входу та синхронізації браузера</value>
+  </data>
+  <data name="_edgeDefaultTopSites" xml:space="preserve">
+    <value>Не показувати спонсоровані посилання на сторінці нової вкладки</value>
+  </data>
+  <data name="_edgeDefautBrowserSetting" xml:space="preserve">
+    <value>Вимкнути Microsoft Edge як браузер за замовчуванням</value>
+  </data>
+  <data name="_edgeEdgeCollections" xml:space="preserve">
+    <value>Вимкнути функцію доступу до колекцій</value>
+  </data>
+  <data name="_edgeEdgeShoppingAssistant" xml:space="preserve">
+    <value>Вимкнення помічника покупок у Microsoft Edge</value>
+  </data>
+  <data name="_edgeFirstRunExperience" xml:space="preserve">
+    <value>Не показувати "Перше знайомство" під час запуску браузера</value>
+  </data>
+  <data name="_edgeGamerMode" xml:space="preserve">
+    <value>Вимкнути ігровий режим</value>
+  </data>
+  <data name="_edgeHubsSidebar" xml:space="preserve">
+    <value>Вимкнути символ Copilot в Edge</value>
+  </data>
+  <data name="_edgeImportOnEachLaunch" xml:space="preserve">
+    <value>Не дозволяти імпорт даних з інших браузерів під час кожного запуску</value>
+  </data>
+  <data name="_edgeStartupBoost" xml:space="preserve">
+    <value>Вимкнути прискорення запуску</value>
+  </data>
+  <data name="_edgeTabPageQuickLinks" xml:space="preserve">
+    <value>Не відображати "Швидкі посилання" на сторінці нової вкладки</value>
+  </data>
+  <data name="_edgeUserFeedback" xml:space="preserve">
+    <value>Видалити опцію зворотного зв'язку з панелі інструментів</value>
+  </data>
+  <data name="_aiCopilotTaskbar_desc" xml:space="preserve">
+    <value>Ця функція вимкне Copilot на панелі завдань.</value>
+  </data>
+  <data name="_gamingGameDVR" xml:space="preserve">
+    <value>Вимкнути GameDVR</value>
+  </data>
+  <data name="_gamingGameDVR_desc" xml:space="preserve">
+    <value>Ця функція вимкне GameDVR.</value>
+  </data>
+  <data name="_gamingPowerThrottling" xml:space="preserve">
+    <value>Вимкнути обмеження живлення</value>
+  </data>
+  <data name="_gamingPowerThrottling_desc" xml:space="preserve">
+    <value>Ця функція запобігатиме зниженню потужності.</value>
+  </data>
+  <data name="_gamingVisualFX" xml:space="preserve">
+    <value>Вимкнути VisualFX</value>
+  </data>
+  <data name="_gamingVisualFX_desc" xml:space="preserve">
+    <value>Ця функція вимкне VisualFX.</value>
+  </data>
+  <data name="_privacyBackgroundApps" xml:space="preserve">
+    <value>Вимкнути запуск програм у фоновому режимі</value>
+  </data>
+  <data name="_privacyBackgroundApps_desc" xml:space="preserve">
+    <value>Ця функція запобігає роботі програм у фоновому режимі.</value>
+  </data>
+  <data name="_privacyPrivacyExperience_desc" xml:space="preserve">
+    <value>Ця функція вимикає налаштування конфіденційності під час входу.</value>
+  </data>
+  <data name="_privacyFindMyDevice" xml:space="preserve">
+    <value>Вимкнути функцію "Знайти мій пристрій"</value>
+  </data>
+  <data name="_privacyFindMyDevice_desc" xml:space="preserve">
+    <value>Ця функція запобігає віддаленому визначенню вашого пристрою.</value>
+  </data>
+  <data name="_privacyPrivacyExperience" xml:space="preserve">
+    <value>Вимкнути налаштування конфіденційності під час входу</value>
+  </data>
+  <data name="_privacyTelemetry" xml:space="preserve">
+    <value>Вимкнути телеметрію</value>
+  </data>
+  <data name="_privacyTelemetry_desc" xml:space="preserve">
+    <value>Microsoft не дозволяє користувачам Windows 10/11 Home повністю вимикати збір телеметричних даних. Однак ці користувачі все ще можуть обмежити збір деяких необов’язкових даних за допомогою системних налаштувань.</value>
+  </data>
+  <data name="_systemFaxPrinter" xml:space="preserve">
+    <value>Видалення факс-принтера</value>
+  </data>
+  <data name="_systemFullContextMenus" xml:space="preserve">
+    <value>Відображати повне контекстне меню у Windows 11</value>
+  </data>
+  <data name="_systemFullContextMenus_desc" xml:space="preserve">
+    <value>Ця функція дозволяє завжди відображати повне контекстне меню (класичне меню).</value>
+  </data>
+  <data name="_systemLockScreen" xml:space="preserve">
+    <value>Не використовувати персоналізований екран блокування</value>
+  </data>
+  <data name="_systemLockScreen_desc" xml:space="preserve">
+    <value>Ця функція вимкне персоналізований екран блокування.</value>
+  </data>
+  <data name="_systemVerboseMessages" xml:space="preserve">
+    <value>Відображення дуже детальних повідомлень про стан</value>
+  </data>
+  <data name="_systemVerboseMessages_desc" xml:space="preserve">
+    <value>Ця функція забезпечить відображення дуже детальних повідомлень про стан.</value>
+  </data>
+  <data name="_systemXPSWriter" xml:space="preserve">
+    <value>Видалення XPS Writer</value>
+  </data>
+  <data name="_systemXPSWriter_desc" xml:space="preserve">
+    <value>Ця функція видалить програму XPS Writer.</value>
+  </data>
+  <data name="_taskbarBingSearch" xml:space="preserve">
+    <value>Вимкнення інтеграції Bing у пошуку Windows</value>
+  </data>
+  <data name="_taskbarBingSearch_desc" xml:space="preserve">
+    <value>Ця функція також запобігатиме пошуку в Інтернеті з використанням Microsoft Bing за допомогою служби Windows Search.</value>
+  </data>
+  <data name="_taskbarMostUsedApps" xml:space="preserve">
+    <value>Приховати найчастіше використовувані програми</value>
+  </data>
+  <data name="_taskbarMostUsedApps_desc" xml:space="preserve">
+    <value>Ця функція запобігатиме відображенню найчастіше використовуваних програм.</value>
+  </data>
+  <data name="_taskbarSearchbox" xml:space="preserve">
+    <value>Приховати пошук на панелі завдань</value>
+  </data>
+  <data name="_taskbarSearchbox_desc" xml:space="preserve">
+    <value>Ця функція приховає поле пошуку на панелі завдань.</value>
+  </data>
+  <data name="_taskbarStartButtonAlignment" xml:space="preserve">
+    <value>Вирівняти кнопку "Пуск" вліворуч</value>
+  </data>
+  <data name="_taskbarStartButtonAlignment_desc" xml:space="preserve">
+    <value>Ця функція дозволить вирівнювати значки на панелі завдань по лівому краю.</value>
+  </data>
+  <data name="_taskbarStartmenuLayout" xml:space="preserve">
+    <value>Показати більше закріплених елементів</value>
+  </data>
+  <data name="_taskbarStartmenuLayout_desc" xml:space="preserve">
+    <value>Ця функція змінить меню «Пуск» таким чином, щоб у ньому відображалося більше закріплених елементів і менше рекомендацій. Якщо її вимкнути, відображатиметься більше рекомендацій і менше закріплених елементів.</value>
+  </data>
+  <data name="_taskbarTaskbarChat" xml:space="preserve">
+    <value>Приховати значок чату на панелі завдань</value>
+  </data>
+  <data name="_taskbarTaskbarChat_desc" xml:space="preserve">
+    <value>За замовчуванням функція чату надає вам легкий доступ до Microsoft Teams. Однак, якщо ви не користуєтеся Teams або просто не хочете бачити значок на панелі завдань, ви можете його приховати.</value>
+  </data>
+  <data name="_taskbarTaskView" xml:space="preserve">
+    <value>Сховати кнопку "Перегляд завдань" на панелі завдань</value>
+  </data>
+  <data name="_taskbarTaskView_desc" xml:space="preserve">
+    <value>Ця функція відключить кнопку "Перегляд завдань" на панелі завдань.</value>
+  </data>
+  <data name="_taskbarWidgets" xml:space="preserve">
+    <value>Приховати віджети на панелі завдань</value>
+  </data>
+  <data name="_taskbarWidgets_desc" xml:space="preserve">
+    <value>Ця функція запобігатиме відображенню віджетів на панелі завдань.</value>
+  </data>
+  <data name="_systemFaxPrinter_desc" xml:space="preserve">
+    <value>Ця функція видалить факс-принтер.</value>
+  </data>
+  <data name="menuDoContextItem" xml:space="preserve">
+    <value>Встановити налаштування вручну</value>
+  </data>
+  <data name="menuPinContextItem" xml:space="preserve">
+    <value>Закріпити</value>
+  </data>
+  <data name="menuUndoContextItem" xml:space="preserve">
+    <value>Скинути налаштування</value>
+  </data>
+  <data name="statusApplied" xml:space="preserve">
+    <value>Застосовано: </value>
+  </data>
+  <data name="statusDisabled" xml:space="preserve">
+    <value>Вимкнуто</value>
+  </data>
+  <data name="statusEnabled" xml:space="preserve">
+    <value>Увімкнуто</value>
+  </data>
+  <data name="statusIsDisabled" xml:space="preserve">
+    <value>було вимкнуто.</value>
+  </data>
+  <data name="statusIsEnabled" xml:space="preserve">
+    <value>було увімкнуто.</value>
+  </data>
+  <data name="_aiRecallLocalMachine_desc" xml:space="preserve">
+    <value>Ця функція запобігатиме збереженню знімків усієї системи за допомогою Recall.</value>
+  </data>
+  <data name="_catAdblock" xml:space="preserve">
+    <value>Блокування реклами</value>
+  </data>
+  <data name="_catAI" xml:space="preserve">
+    <value>AI/Copilot та Recall</value>
+  </data>
+  <data name="_catGaming" xml:space="preserve">
+    <value>Ігри</value>
+  </data>
+  <data name="_catMSEdge" xml:space="preserve">
+    <value>Microsoft Edge</value>
+  </data>
+  <data name="_catPrivacy" xml:space="preserve">
+    <value>Конфіденційність</value>
+  </data>
+  <data name="_catSystem" xml:space="preserve">
+    <value>Система</value>
+  </data>
+  <data name="_catTaskbar" xml:space="preserve">
+    <value>Панель завдань</value>
+  </data>
+  <data name="_logFinalCheck" xml:space="preserve">
+    <value>Тривають фінальні перевірки...</value>
+  </data>
+  <data name="_logFinalCheckMessage" xml:space="preserve">
+    <value>Дякуємо за використання xd-AntiSpy! Якщо ви вважаєте цей інструмент корисним, будь ласка, подумайте про пожертвування для підтримки його розвитку: https://paypal.com/donate?hosted_button_id=MY7HX4QLYR4KG</value>
+  </data>
+  <data name="_logFinalCheckMessage2" xml:space="preserve">
+    <value>Слідкуйте за проєктом та робіть свій внесок у його розвиток на GitHub: https://github.com/builtbybel/xd-AntiSpy</value>
+  </data>
+  <data name="_logFinalCheck_complete" xml:space="preserve">
+    <value>Всі перевірки завершені.</value>
+  </data>
+  <data name="_logNativeFeatureCheck" xml:space="preserve">
+    <value>Розпочато тестування вбудованих функцій...</value>
+  </data>
+  <data name="_logNativeFeatureCheck_complete" xml:space="preserve">
+    <value>Функціональні випробування завершено.</value>
+  </data>
+  <data name="_logPluginsFeatureCheck" xml:space="preserve">
+    <value>Перевірку плагінів розпочато...</value>
+  </data>
+  <data name="_logPluginsFeatureCheck_complete" xml:space="preserve">
+    <value>Перевірку плагінів завершено.</value>
+  </data>
+  <data name="formAbout_lblAbout" xml:space="preserve">
+    <value>(c) 2024 Додаток від Belim
+Хоча немає гарантії, що xD-Antispy працюватиме ідеально у вашій системі, я ретельно його протестував. Пам’ятайте, що це проект однієї людини, і я лише людина.
+
+Цей інструмент має відкритий вихідний код і завжди буде безкоштовним. Я прагну постійно його оновлювати та вдосконалювати.
+
+xD-Antispy – це сучасний варіант класичного XP Antispy для Windows 11, який був додатково розроблений для вирішення сучасних проблем конфіденційності.
+
+xD-Antispy – тому що налаштування конфіденційності повинні викликати у вас посмішку!
+
+-Belim-</value>
+  </data>
+  <data name="formToolDebloater_btnChooseDB" xml:space="preserve">
+    <value>Виберіть власну базу даних...</value>
+  </data>
+  <data name="formToolDebloater_btnRemoveSelected" xml:space="preserve">
+    <value>Видалити вибрані програми</value>
+  </data>
+  <data name="formToolDebloater_errorNoAppsCount" xml:space="preserve">
+    <value>Будь ласка, виберіть принаймні одину програму для видалення.</value>
+  </data>
+  <data name="formToolDebloater_selectAllToolStripMenuItem" xml:space="preserve">
+    <value>Вибрати все</value>
+  </data>
+  <data name="formToolDebloater_statusCheckComplete" xml:space="preserve">
+    <value>Перевірку завершено.</value>
+  </data>
+  <data name="formToolDebloater_statusChecking" xml:space="preserve">
+    <value>Перевірка</value>
+  </data>
+  <data name="formToolDebloater_statusRemoved" xml:space="preserve">
+    <value>видалено.</value>
+  </data>
+  <data name="formToolDebloater_statusRemoving" xml:space="preserve">
+    <value>Видалення</value>
+  </data>
+  <data name="formToolDebloater_successRemoved" xml:space="preserve">
+    <value>Програми успішно видалено.</value>
+  </data>
+  <data name="statusHasBeen" xml:space="preserve">
+    <value>було</value>
+  </data>
+  <data name="statusIsCurrently" xml:space="preserve">
+    <value>зараз</value>
+  </data>
+  <data name="formSymbolRef_lblActive" xml:space="preserve">
+    <value>Активно: Якщо опція ввімкнена та неактивна, це означає, що налаштування активне.</value>
+  </data>
+  <data name="formSymbolRef_lblInactive" xml:space="preserve">
+    <value>Неактивно: Якщо опцію вимкнено, а текст має звичайний колір, налаштування неактивне. Ви можете ввімкнути налаштування, просто встановивши прапорець і натиснувши кнопку «Застосувати налаштування».</value>
+  </data>
+  <data name="formToolDebloater_checkBoxShowAllApps" xml:space="preserve">
+    <value>Показати всі встановлені</value>
+  </data>
+  <data name="menu_profilesToolStripMenuItem" xml:space="preserve">
+    <value>Профілі</value>
+  </data>
+  <data name="menu_aboutAppToolStripMenuItem" xml:space="preserve">
+    <value>Про XDAntiSpy...</value>
+  </data>
+  <data name="menu_modeAccessibleToolStripMenuItem" xml:space="preserve">
+    <value>Доступно</value>
+  </data>
+  <data name="menu_modeStandardToolStripMenuItem" xml:space="preserve">
+    <value>Стандартно</value>
+  </data>
+  <data name="menu_modeToolStripMenuItem" xml:space="preserve">
+    <value>Режим</value>
+  </data>
+  <data name="menu_refreshToolStripMenuItem" xml:space="preserve">
+    <value>Оновити</value>
+  </data>
+  <data name="menu_moreToolStripMenuItem" xml:space="preserve">
+    <value>Більше...</value>
+  </data>
+  <data name="ctl_comboPlugins" xml:space="preserve">
+    <value>Більше інструментів</value>
+  </data>
+  <data name="formToolDebloater_installedToolStripMenuItem" xml:space="preserve">
+    <value>Показати все встановлене</value>
+  </data>
+  <data name="formToolDebloater_customDatabaseToolStripMenuItem" xml:space="preserve">
+    <value>Завантажити користувацьку базу даних...</value>
+  </data>
+  <data name="formToolDebloater_deselectAllToolStripMenuItem" xml:space="preserve">
+    <value>Зняти вибір усього</value>
+  </data>
+  <data name="CREDITS_translator" xml:space="preserve">
+    <value>Перекладено VMelnik</value>
+  </data>
+  <data name="formToolDebloater_DeselectAll" xml:space="preserve">
+    <value>Зняти виділення всіх</value>
+  </data>
+  <data name="formSymbolRef_lblRed" xml:space="preserve">
+    <value>Крім того, для цієї програми доступні цікаві та рекомендовані профілі в різних онлайн-спільнотах, таких як Reddit та Deskmodder. Оскільки додаток новий і розвивається, якщо ви не впевнені, які налаштування конфігурувати, вивчення цих профілів може дати корисні поради. Дослідіть та відкрийте для себе оптимальні конфігурації, що відповідають вашим уподобанням, щоб забезпечити персоналізований та покращений користувацький досвід!</value>
+  </data>
+  <data name="ctl_btnApps" xml:space="preserve">
+    <value>Програма</value>
+  </data>
+  <data name="ctl_btnWindows" xml:space="preserve">
+    <value>Windows</value>
+  </data>
+  <data name="menu_toolsToolStripMenuItem" xml:space="preserve">
+    <value>Інструменти</value>
+  </data>
+  <data name="menu_profileCopyToolStripMenuItem" xml:space="preserve">
+    <value>Копіювати</value>
+  </data>
+  <data name="menu_profileShareSettingsToolStripMenuItem" xml:space="preserve">
+    <value>Поділитися</value>
+  </data>
+  <data name="formAbout_linkDonation" xml:space="preserve">
+    <value>Ваша підтримка допомагає підтримувати роботу та розвиток цієї програми – спасибі! - Belim</value>
+  </data>
+  <data name="formToolDebloater_selectAll" xml:space="preserve">
+    <value>Обрати все</value>
+  </data>
+  <data name="menu_toolsToolDebloaterToolStripMenuItem" xml:space="preserve">
+    <value>Шукати непотрібні програми...</value>
+  </data>
+  <data name="menu_profilesImportToolStripMenuItem" xml:space="preserve">
+    <value>Імпортувати</value>
+  </data>
+  <data name="formSymbolRef_checkInfoPlugins" xml:space="preserve">
+    <value>Крім того, плагіни, згенеровані та перевірені ШІ, були автоматично завантажені до папки плагінів програми. Ці плагіни можна легко інтегрувати до списку або отримати доступ через меню інструментів. Вивчіть ці покращення, щоб налаштувати ваш досвід та оптимізувати функціональність без зайвих зусиль.</value>
+  </data>
+  <data name="menu_toolsRefreshToolStripMenuItem" xml:space="preserve">
+    <value>Оновити</value>
+  </data>
+  <data name="formSymbolRef_lblGreen" xml:space="preserve">
+    <value>Пам'ятайте, що підтримка деяких налаштувань активними може покращити конфіденційність та продуктивність вашої системи. Налаштуйте ці опції відповідно до ваших потреб і насолоджуйтесь більш безпечним досвідом роботи з ПК!</value>
+  </data>
+  <data name="ctl_lblSpotlight" xml:space="preserve">
+    <value>Ознайомтеся з новим плагіном для видалення bloatware та виявлення непотрібних програм</value>
+  </data>
+  <data name="formAbout_lblHeaderInfo" xml:space="preserve">
+    <value>Про xd-AntiSpy</value>
+  </data>
+</root>
