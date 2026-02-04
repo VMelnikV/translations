@@ -1,0 +1,102 @@
+<!ENTITY toolbarbutton.label "Автозаповнення форм">
+<!ENTITY profilemenuitem.label "Перемикач профілів">
+<!ENTITY settingsmenuitem.label "Налаштування">
+<!ENTITY helpmenuitem.label "Довідка">
+<!ENTITY autofillformscontextmenuitem.label "Автозаповнення форм">
+<!ENTITY autofillformscontextmenuitem.accesskey "у">
+<!ENTITY manualfillcontextmenu.label "Заповнити це поле">
+<!ENTITY manualfillcontextmenu.accesskey "з">
+<!ENTITY addrulecontextmenuitem.label "Додати правило для цього поля...">
+<!ENTITY addrulecontextmenuitem.accesskey "д">
+<!ENTITY addformasprofilecontextmenuitem.label "Додати цілу форму як профіль...">
+<!ENTITY addformasprofilecontextmenuitem.accesskey "ф">
+<!ENTITY options.title "Налаштування Автозаповнення форм">
+<!ENTITY prefpanesimplelabel "Простий">
+<!ENTITY prefpanemainlabel "Головний">
+<!ENTITY prefpaneprofileslabel "Профілі">
+<!ENTITY prefpaneadvancedlabel "Розширений">
+<!ENTITY prefpaneguilabel "Інтерфейс">
+<!ENTITY resetallprofiles.label "Скинути всі профілі">
+<!ENTITY profile.label "Профіль:">
+<!ENTITY profilesiterule.label "Правило сайту">
+<!ENTITY profilename.label "Назва">
+<!ENTITY fieldrulename.label "Назва">
+<!ENTITY fieldrulevalue.label "Значення">
+<!ENTITY fieldrulesiterule.label "Правило сайту">
+<!ENTITY fieldrulefieldrule.label "Правило поля">
+<!ENTITY fieldruleoverwrite.label "Перезаписати">
+<!ENTITY fieldruleenabled.label "Активовано">
+<!ENTITY apply.label "Застосувати">
+<!ENTITY apply.accesskey "з">
+<!ENTITY add.label "Додати">
+<!ENTITY add.accesskey "д">
+<!ENTITY remove.label "Видалити">
+<!ENTITY remove.accesskey "в">
+<!ENTITY moveup.label "Перемістити вгору">
+<!ENTITY moveup.accesskey "г">
+<!ENTITY movedown.label "Перемістити вниз">
+<!ENTITY movedown.accesskey "н">
+<!ENTITY disable.label "Вимкнути">
+<!ENTITY validate.label "Перевірити">
+<!ENTITY validate.accesskey "п">
+<!ENTITY securitycaption.label "Безпека">
+<!ENTITY storeencrypted.label "Зберігати правила полів форм зашифрованими">
+<!ENTITY storagelocationcaption.label "Місце зберігання">
+<!ENTITY useconfigdirectory.label "Зберігати правила полів форм у спеціальній директорії конфігурації">
+<!ENTITY browsedir.label "Огляд...">
+<!ENTITY resetdir.label "Скинути">
+<!ENTITY opendir.label "Відкрити">
+<!ENTITY shortcutscaption.label "Гарячі клавіші">
+<!ENTITY shortcutfilloutforms.label "Заповнити форми:">
+<!ENTITY shortcutfilloutandsubmitforms.label "Заповнити та надіслати форми:">
+<!ENTITY shortcutfilloutformsonalltabs.label "Заповнити форми на всіх вкладках:">
+<!ENTITY shortcutfilloutformsfromprofileselection.label "Заповнити форми з вибору профілю:">
+<!ENTITY shortcutprofileswitcher.label "Перемикач профілів:">
+<!ENTITY shortcutsettings.label "Налаштування:">
+<!ENTITY shortcutdisplayformdetails.label "Показати деталі форми:">
+<!ENTITY shortcutinfo.label "Зміни гарячих клавіш набувають чинності лише у новому вікні Firefox.">
+<!ENTITY mousebuttonscaption.label "Кнопки миші">
+<!ENTITY mousebuttonclick.label "Клік">
+<!ENTITY mouseshortcutinfo.label "Кнопки миші застосовуються до кліків по кнопці панелі інструментів або іконці рядка стану.">
+<!ENTITY viewcaption.label "Вигляд">
+<!ENTITY hidestatusbaricon.label "Приховати іконку рядка стану">
+<!ENTITY hidecontextmenuitem.label "Приховати пункт контекстного меню">
+<!ENTITY hideformfieldscontextmenu.label "Приховати контекстне меню полів форми">
+<!ENTITY hidetoolbarbutton.label "Приховати кнопку панелі інструментів">
+<!ENTITY hidetoolbarbuttonmenu.label "Приховати меню кнопки панелі інструментів">
+<!ENTITY enableconfirmationdialogs.label "Увімкнути діалоги підтвердження">
+<!ENTITY highlightstylematch.label "Стиль CSS для автозаповнених полів форми:">
+<!ENTITY highlightstylenomatch.label "Стиль CSS для неавтозаповнених полів форми:">
+<!ENTITY formdetailsstyle.label "Стиль CSS для деталей форми:">
+<!ENTITY miscellaneous.label "Різне">
+<!ENTITY ignoredisabledrulesonautofill.label "Ігнорувати вимкнені правила при автоматичному заповненні форм">
+<!ENTITY ignoredisabledfields.label "Ігнорувати вимкнені поля">
+<!ENTITY focuslastformelementmatch.label "Установити фокус на останньому відповідному полі форми">
+<!ENTITY autoselectbestprofile.label "Автоматично вибирати найкраще відповідний профіль">
+<!ENTITY matchagainstlabels.label "Також перевіряти правила на відповідність міткам полів форми">
+<!ENTITY identifylabelsinstrictmode.label "Визначати мітки полів форм у строгому режимі">
+<!ENTITY matchagainstpositions.label "Дозволити правилам відповідати полям форми за позицією">
+<!ENTITY rememberalternativesindex.label "Використовувати вибраний індекс альтернатив для наступних виборів">
+<!ENTITY placeholderlinebreak.label "Заповнювач для розривів рядків у текстових областях:">
+<!ENTITY placeholdertab.label "Заповнювач для вводу табуляції:">
+<!ENTITY enableglobalprofile.label "Увімкнути Глобальний Профіль:">
+<!ENTITY formfieldscontextmenu.label "Показати в контекстному меню полів форми:">
+<!ENTITY formfieldscontextmenuitemallprofiles.label "Всі профілі">
+<!ENTITY formfieldscontextmenuitemactiveprofile.label "Активний профіль">
+<!ENTITY profileimportexport.label "Імпорт / Експорт профілю">
+<!ENTITY profileimportbutton.label "Імпортувати профіль(і)...">
+<!ENTITY profileexportbutton.label "Експортувати поточний профіль...">
+<!ENTITY profileexportallbutton.label "Експортувати всі профілі...">
+<!ENTITY formdetails.label "Показати деталі форми">
+<!ENTITY ruleeditorbutton.label "Редактор правил...">
+<!ENTITY ruleeditor.title "Редактор правил">
+<!ENTITY ruleeditorinfo.label "Умови пов'язані між собою як диз'юнкції (зв'язок АБО) - має відповідати лише одна з них.">
+<!ENTITY ruleeditorcondition.label "Шуканий рядок ...">
+<!ENTITY tagsenable.label "Увімкнути динамічні теги">
+<!ENTITY tagsedit.label "Редагувати динамічні теги...">
+<!ENTITY tageditor.title "Редактор динамічних тегів">
+<!ENTITY tagimportexport.label "Імпорт / Експорт динамічних тегів">
+<!ENTITY tagimportbutton.label "Імпортувати теги...">
+<!ENTITY tagexportbutton.label "Експортувати теги...">
+<!ENTITY disablealternatives.label "Вимкнути альтернативи (завжди використовувати перший збіг)">
+<!ENTITY callonchangeafterfillingfields.label "Викликати події onchange після заповнення полів">
