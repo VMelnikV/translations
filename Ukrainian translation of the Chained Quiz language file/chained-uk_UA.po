@@ -1,0 +1,993 @@
+# Translation of Plugins - Chained Quiz in Ukrainian
+msgid ""
+msgstr ""
+"Project-Id-Version: Chained Quiz 1.0.6\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/chained-quiz\n"
+"POT-Creation-Date: 2026-05-26 10:49:11+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2026-05-26 02:46+0500\n"
+"Language-Team: VMelnik\n"
+"Language: uk_UA\n"
+
+#: controllers/completed.php:183 views/completed.html.php:66 controllers/completed.php:193
+msgid "Record ID"
+msgstr "ID запису"
+
+#: controllers/completed.php:183
+msgid "User name or IP"
+msgstr "Ім'я користувача або IP"
+
+#: controllers/completed.php:184
+msgid "Date/time"
+msgstr "Дата/час"
+
+#: controllers/completed.php:184 models/quiz.php:220
+#: views/completed.html.php:67 views/completed.html.php:85
+msgid "Points"
+msgstr "Бали"
+
+#: controllers/completed.php:184 views/completed.html.php:67
+msgid "Result"
+msgstr "Результат"
+
+#: controllers/completed.php:186
+msgid "Детальні"
+msgstr "Деталі"
+
+#: controllers/completed.php:199
+msgid "(%d points)"
+msgstr "(%d балів)"
+
+#: controllers/quizzes.php:33
+msgid ""
+"Congratulations, you completed the <span>quiz!</span>
+<h2>{{result-title}}</h2>
+{{result-text}}
+
+You achieved {{points}} points from {{questions}} questions."
+msgstr "Вітаємо, ви успішно завершили <span>тест!</span>\n <h2>{{result-title}}</h2>\n {{result-text}}\n \n Ви заробили {{points}} балів, відповівши на {{questions}} запитань."
+
+#: controllers/quizzes.php:110
+msgid "Quiz not found"
+msgstr "Тест не знайдено"
+
+#: controllers/quizzes.php:124
+msgid "Тим не потрібно."
+msgstr "Тест не містить запитань."
+
+#: controllers/results.php:19
+msgid "Результат не був added"
+msgstr "Результат не було додано"
+
+#: controllers/results.php:29
+msgid "Результат was not saved"
+msgstr "Результат не збережено"
+
+#: controllers/results.php:38
+msgid "Результат був не deleted"
+msgstr "Результат не видалено"
+
+#: controllers/shortcodes.php:7
+msgid "No quiz to load"
+msgstr "Немає тестів для відображення"
+
+#: models/basic.php:133
+msgid "WordPress"
+msgstr "WordPress"
+
+#: models/basic.php:170
+msgid "User results on {{quiz-name}}"
+msgstr "Результати користувача на {{quiz-name}}"
+
+#: models/basic.php:171
+msgid "Власні результати на {{quiz-name}}"
+msgstr "Ваші результати на {{quiz-name}}"
+
+#. Plugin Name of the plugin/theme
+#: models/basic.php:147
+msgid "Chained Quiz"
+msgstr "Chained Quiz"
+
+#: models/basic.php:149
+msgid "Quizzes"
+msgstr "Тести"
+
+#: models/basic.php:151
+msgid "Settings"
+msgstr "Налаштування"
+
+#: models/basic.php:153
+msgid "Social Sharing"
+msgstr "Соціальний обмін"
+
+#: models/basic.php:156
+msgid "Chained Quiz Results"
+msgstr "Результати тесту"
+
+#: models/basic.php:158
+msgid "Chained Quiz Questions"
+msgstr "Питання тесту"
+
+#: models/basic.php:160
+msgid "Users Completed Quiz"
+msgstr "Користувач завершив тест"
+
+#: models/basic.php:183
+msgid "Повідомити про помилку"
+msgstr "Будь ласка, дайте відповідь на запитання"
+
+#: models/question.php:23 models/question.php:41 models/question.php:54
+#: models/quiz.php:22 models/quiz.php:51 models/result.php:19
+#: models/result.php:39 models/result.php:50
+msgid "DB Error"
+msgstr "DB Error"
+
+#: models/quiz.php:163
+msgid "Username: %s <br> User email: %s"
+msgstr "Ім'я користувача: %s <br> Email користувача: %s"
+
+#: models/quiz.php:166
+msgid "User IP: %s"
+msgstr "IP користувача: %s"
+
+#: models/quiz.php:167
+msgid "User email: %s"
+msgstr "Email користувача: %s"
+
+#: models/quiz.php:218 views/completed.html.php:84 views/questions.html.php:14
+msgid "Question"
+msgstr "Питання"
+
+#: models/quiz.php:219 views/completed.html.php:84
+msgid "Answer"
+msgstr "Відповідь"
+
+#: models/quiz.php:219
+msgid "Correct answer?"
+msgstr "Правильна відповідь?"
+
+#: models/quiz.php:229 models/quiz.php:234 models/quiz.php:245
+msgid "Yes"
+msgstr "Так"
+
+#: models/quiz.php:229 models/quiz.php:234 models/quiz.php:245
+msgid "No"
+msgstr "Ні"
+
+#: models/quiz.php:270
+msgid "%s (Copy)"
+msgstr "%s (копіювати)"
+
+#: views/chained-quizzes.html.php:2
+msgid "Chained Quizzes"
+msgstr "Варіативні тести"
+
+#: views/chained-quizzes.html.php:6
+msgid "Create new chained quiz"
+msgstr "Додати новий тест"
+
+#: views/chained-quizzes.html.php:10
+msgid "Quiz title"
+msgstr "Назва тесту"
+
+#: views/chained-quizzes.html.php:10
+msgid "Quiz Shortcode"
+msgstr "Шорткод тесту"
+
+#: views/chained-quizzes.html.php:10
+msgid "Questions"
+msgstr "Питання"
+
+#: views/chained-quizzes.html.php:11
+msgid "Результати"
+msgstr "Результати"
+
+#: views/chained-quizzes.html.php:11
+msgid "Submitted by"
+msgstr "Відповіді від"
+
+#: views/chained-quizzes.html.php:11
+msgid "Edit/Delete"
+msgstr "Редагувати/Видалити"
+
+#: views/chained-quizzes.html.php:17 views/chained-quizzes.html.php:18
+msgid "Manage"
+msgstr "Керування"
+
+#: views/chained-quizzes.html.php:20
+msgid "%d users"
+msgstr "%d людина(и)"
+
+#: views/chained-quizzes.html.php:21
+msgid "No users"
+msgstr "Немає користувачів"
+
+#: views/chained-quizzes.html.php:23 views/questions.html.php:26
+msgid "Edit"
+msgstr "Редагувати"
+
+#: views/chained-quizzes.html.php:24
+msgid "This will make a duplicate of the whole quiz."
+msgstr "Це зробить копію цілого тесту."
+
+#: views/chained-quizzes.html.php:24
+msgid "Copy"
+msgstr "Копіювати"
+
+#: views/chained-quizzes.html.php:25 views/completed.html.php:68
+#: views/completed.html.php:79 views/questions.html.php:26
+msgid "Delete"
+msgstr "Видалити"
+
+#: views/chained-quizzes.html.php:28
+msgid "Note: if a quiz title is not hyperlinked this means you have not published its shortcode yet. You must place the shortcode in a post or page in order to make the quiz accessible to the public."
+msgstr "Примітка: якщо назва тесту не є гіперпосиланням, це означає, що Ви ще не опублікували свій шорткод. Ви повинні помістити шорткод на сторінці, або записи, щоб зробити тест доступним."
+
+#: views/chained-quizzes.html.php:31
+msgid "There are no quizzes yet."
+msgstr "Поки немає жодного тесту."
+
+#: views/chained-quizzes.html.php:42 views/completed.html.php:128
+#: views/questions.html.php:44 views/results.html.php:57
+msgid "Are you sure?"
+msgstr "Ви впевнені?"
+
+#: views/choice.html.php:1
+msgid "Points:"
+msgstr "Бали:"
+
+#: views/choice.html.php:1
+msgid "Correct answer"
+msgstr "Правильна відповідь"
+
+#: views/choice.html.php:1
+msgid "When selected go to:"
+msgstr "Коли вибрано, перейти до:"
+
+#: views/choice.html.php:2
+msgid "Next question"
+msgstr "Наступне питання"
+
+#: views/choice.html.php:3
+msgid "Finalize quiz"
+msgstr "Завершити тест"
+
+#: views/choice.html.php:5
+msgid "- Select question -"
+msgstr "- Виберіть питання -"
+
+#: views/choice.html.php:12
+msgid "Delete this choice"
+msgstr "Видалити цей вибір"
+
+#: views/completed.html.php:2
+msgid "Users who submitted quiz \"%s\""
+msgstr "Користувачі, які пройшли тест "%s""
+
+#: views/completed.html.php:5 ​​views/question.html.php:6
+#: views/questions.html.php:6 views/quiz.html.php:6 views/results.html.php:6
+#: views/sharing-options.html.php:4
+msgid "Back to quizzes"
+msgstr "Назад до тестів"
+
+#: views/completed.html.php:5
+msgid "Manage questions"
+msgstr "Управління питаннями"
+
+#: views/completed.html.php:6 views/question.html.php:7
+#: views/questions.html.php:7
+msgid "Manage Results"
+msgstr "Керування результатами"
+
+#: views/completed.html.php:7 views/question.html.php:8
+#: views/questions.html.php:8 views/results.html.php:8
+msgid "Edit This Quiz"
+msgstr "Редагувати цей тест"
+
+#: views/completed.html.php:10
+msgid "Плещати rate us 5 Stars!"
+msgstr "Будь ласка, залиште нам відгук на 5 зірок!"
+
+#: views/completed.html.php:13
+msgid "Filter/search these records"
+msgstr "Фільтр/пошук за записами"
+
+#: views/completed.html.php:14
+msgid "Export CSV"
+msgstr "Експорт у CSV"
+
+#: views/completed.html.php:15
+msgid "Export with details"
+msgstr "Експорт з подробицями"
+
+#: views/completed.html.php:16
+msgid "Export files are currently delimited by \"%s\". You can change the delimiter at <a href=\"%s\">Chained Quiz Settings</a> page."
+msgstr "Файли, що експортуються, в даний час мають роздільник \"%s\". Ви можете змінити роздільник на сторінці <a href=\"%s\">налаштувань тестів</a>."
+
+#: views/completed.html.php:23
+msgid "Username"
+msgstr "Ім'я користувача"
+
+#: views/completed.html.php:24 views/completed.html.php:30
+#: views/completed.html.php:36 views/completed.html.php:42
+msgid "Equals"
+msgstr "Дорівнює"
+
+#: views/completed.html.php:25 views/completed.html.php:31
+#: views/completed.html.php:37
+msgid "Starts with"
+msgstr "Починається з"
+
+#: views/completed.html.php:26 views/completed.html.php:32
+#: views/completed.html.php:38
+msgid "Ends with"
+msgstr "Закінчується на"
+
+#: views/completed.html.php:27 views/completed.html.php:33
+#: views/completed.html.php:39
+msgid "Contains"
+msgstr "Містить"
+
+#: views/completed.html.php:29
+msgid "Email"
+msgstr "Email"
+
+#: views/completed.html.php:35
+msgid "IP Address"
+msgstr "IP Адреса"
+
+#: views/completed.html.php:41
+msgid "Date Taken"
+msgstr "Дата створення"
+
+#: views/completed.html.php:43
+msgid "Is before"
+msgstr "До"
+
+#: views/completed.html.php:44
+msgid "Is after"
+msgstr "Після"
+
+#: views/completed.html.php:46
+msgid "Points received"
+msgstr "Отримано балів"
+
+#: views/completed.html.php:47
+msgid "Equal"
+msgstr "Відповідає"
+
+#: views/completed.html.php:48
+msgid "Are less than"
+msgstr "Менше"
+
+#: views/completed.html.php:49
+msgid "Are more than"
+msgstr "Більше"
+
+#: views/completed.html.php:52
+msgid "Result equals:"
+msgstr "Результат:"
+
+#: views/completed.html.php:53
+msgid "- Any result -"
+msgstr "- Будь-який результат -"
+
+#: views/completed.html.php:59
+msgid "Search/Filter"
+msgstr "Пошук/фільтр"
+
+#: views/completed.html.php:60
+msgid "Clear Filters"
+msgstr "Очистити фільтр"
+
+#: views/completed.html.php:66
+msgid "Ім'я користувача, електронна пошта або IP-адреса"
+msgstr "Username, email або IP"
+
+#: views/completed.html.php:66
+msgid "Date/time"
+msgstr "Дата/час"
+
+#: views/completed.html.php:76
+msgid "Source: %s"
+msgstr "Джерело: %s"
+
+#: views/completed.html.php:78
+msgid "View details"
+msgstr "Подробиці"
+
+#: views/completed.html.php:98
+msgid "previous page"
+msgstr "попередня сторінка"
+
+#: views/completed.html.php:100
+msgid "next page"
+msgstr "наступна сторінка"
+
+#: views/completed.html.php:103
+msgid "Show me a button to cleanup all submitted data on this quiz."
+msgstr "Покажіть мені кнопку для очищення всіх надісланих даних у цій вікторині."
+
+#: views/completed.html.php:106
+msgid "These operations cannot be undone!"
+msgstr "Ця операція не може бути скасована!"
+
+#: views/completed.h
+tml.php:107
+msgid "Cleanup all data"
+msgstr "Очистити всі дані"
+
+#: views/completed.html.php:116
+msgid "No one has submitted this quiz yet."
+msgstr "Поки немає відповіді на цей тест."
+
+#: views/display-quiz.html.php:3
+msgid "You need to be registered and logged in to take this quiz."
+msgstr "Ви повинні бути зареєстровані або авторизовані, щоб пройти цей тест."
+
+#: views/display-quiz.html.php:4
+msgid "Log in"
+msgstr "Увійдіть"
+
+#: views/display-quiz.html.php:6
+msgid "or"
+msgstr "або"
+
+#: views/display-quiz.html.php:6
+msgid "Register"
+msgstr "зареєструйтесь"
+
+#: views/display-quiz.html.php:19
+msgid "Sorry, you can take this quiz only %d times."
+msgstr "Вибачте, але ви можете пройти тест лише %d разів."
+
+#: views/display-quiz.html.php:30
+msgid "Your email address:"
+msgstr "Ваша адреса електронної пошти."
+
+#: views/display-quiz.html.php:42
+msgid "Go Ahead"
+msgstr "Далі"
+
+#: views/options.html.php:2
+msgid "General Options"
+msgstr "Основні налаштування"
+
+#: views/options.html.php:8
+msgid "Roles"
+msgstr "Ролі"
+
+#: views/options.html.php:10
+msgid "Roles that can manage quizzes"
+msgstr "Ролі, які можуть керувати тестами"
+
+#: views/options.html.php:12
+msgid "By default only Administrator and Super admin can manage the quizzes. You can enable other roles here."
+msgstr "За замовчуванням адміністратор та суперадмін можуть керувати тестами. Тут ви можете включити інші ролі."
+
+#: views/options.html.php:18
+msgid "Only administrator or superadmin can change this!"
+msgstr "Тільки адміністратор або суперадмін можуть змінити це!"
+
+#: views/options.html.php:21
+msgid "Email options"
+msgstr "Настройки Email"
+
+#: views/options.html.php:23
+msgid "Посилання та елементи з автоматичних електронних листів"
+msgstr "Відправник та теми автоматичних листів"
+
+#: views/options.html.php:25
+msgid "Sender name:"
+msgstr "Ім'я відправника:"
+
+#: views/options.html.php:26
+msgid "Sender email:"
+msgstr "Email відправника:"
+
+#: views/options.html.php:27
+msgid "Subject of email sent to admin:"
+msgstr "Тема листа для адміністратора:"
+
+#: views/options.html.php:28
+msgid "Subject of email sent to quiz taker:"
+msgstr "Тема листа для учасника тесту:"
+
+#: views/options.html.php:31
+msgid "User interface options"
+msgstr "Налаштування інтерфейсу користувача"
+
+#: views/options.html.php:33
+msgid "Automatically hide the \"Go ahead\" button when possible (typically on \"single answer\" questions)."
+msgstr "Автоматично приховувати кнопку «Вперед», коли це можливо (зазвичай у питаннях з однією відповіддю)."
+
+#: views/options.html.php:35
+msgid "Do not auto-scroll when going to the next question."
+msgstr "Не прокручувати автоматично під час переходу до наступного питання."
+
+#: views/options.html.php:36
+msgid "CSV Exports"
+msgstr "Експорт у CSV"
+
+#: views/options.html.php:38
+msgid "Field separator:"
+msgstr "Розділювач полів:"
+
+#: views/options.html.php:39
+msgid "Comma"
+msgstr "Кома"
+
+#: views/options.html.php:40
+msgid "TAB"
+msgstr "Табуляція"
+
+#: views/options.html.php:42
+msgid "Add quotes around text fields (recommended)"
+msgstr "Додати лапки навколо текстових полів (рекомендовано)"
+
+#: views/options.html.php:45
+msgid "Save Options"
+msgstr "Зберегти налаштування"
+
+#: views/options.html.php:51
+msgid "Question based captcha"
+msgstr "Капча на основі питань"
+
+#: views/options.html.php:51
+msgid "You can use a simple text-based captcha. We have loaded 3 basic questions but you can edit them and load your own. Make sure to enter only one question per line and use = to separate question from answer."
+msgstr "Ви можете скористатися простою текстовою капчею. Ми завантажили 3 основні запитання, але ви можете відредагувати їх та завантажити свої власні. Переконайтеся, що вводите лише одне запитання в кожному рядку та використовуйте =, щоб відокремити запитання від відповіді."
+
+#: views/options.html.php:56
+msgid "This question-based captcha can be enabled individually by selecting a checkbox in the quiz settings form. If you do not check the checkbox, the captcha question will not be generated."
+msgstr "Цю капчу на основі питань можна ввімкнути окремо, встановивши прапорець у формі налаштувань вікторини. Якщо ви не встановите прапорець, питання капчі не буде згенеровано."
+
+#: views/options.html.php:59
+msgid "Other options"
+msgstr "Інші налаштування"
+
+#: views/options.html.php:61
+msgid"Mask IP addresses for GDPR compliance."
+msgstr "Маскувати IP-адреси для дотримання GDPR."
+
+#: views/options.html.php:63
+msgid "Enable debug mode to see SQL errors. (Useful in case you have any problems)"
+msgstr "Увімкнути режим налагодження, щоб побачити помилки SQL. (Корисно у разі виникнення будь-яких проблем)"
+
+#: views/question.html.php:2
+msgid "Add/Edit Question in "%s""
+msgstr "Додати/редагувати питання до "%s""
+
+#: views/question.html.php:6
+msgid "Back to questions"
+msgstr "Назад до питань"
+
+#: views/question.html.php:12
+msgid "Question title"
+msgstr "Назва питання"
+
+#: views/question.html.php:13
+msgid "Question contents"
+msgstr "Зміст питання"
+
+#: views/question.html.php:14
+msgid "Question type:"
+msgstr "Тип запитання:"
+
+#: views/question.html.php:15
+msgid "Radio buttons (one possible answer)"
+msgstr "Кнопка радіо (один можливий варіант)"
+
+#: views/question.html.php:16
+msgid "Checkboxes (multiple possible answers)"
+msgstr "Чекбокс (кілька можливих варіантів)"
+
+#: views/question.html.php:17
+msgid "Text box (open-end, essay question)"
+msgstr "Текстове поле (відкрите питання, есе)"
+
+#: views/question.html.php:20
+msgid "Automatically continue to the next question when a choice is selected"
+msgstr "Автоматично переходити до наступного питання при виборі варіанта"
+
+#: views/question.html.php:22
+msgid "Choices/Answers for this question"
+msgstr "Варіанти/відповіді для цього питання"
+
+#: views/question.html.php:24
+msgid "Add more rows"
+msgstr "Додати ще варіанти"
+
+#: views/question.html.php:36
+msgid "Save question and answers"
+msgstr "Зберегти запитання та відповіді"
+
+#: views/question.html.php:66
+msgid "Please enter question title"
+msgstr "Будь ласка, введіть назву питання"
+
+#: views/questions.html.php:2
+msgid "Manage Questions in %s"
+msgstr "Управління питаннями у %s"
+
+#: views/questions.html.php:11
+msgid "Click here to add new question"
+msgstr "Додати нове питання"
+
+#: views/questions.html.php:14
+msgid "ID"
+msgstr "ID"
+
+#: views/questions.html.php:14
+msgid "Type"
+msgstr "Тип"
+
+#: views/questions.html.php:15
+msgid "Edit / Delete"
+msgstr "Редагувати / Видалити"
+
+#: views/questions.html.php:20
+msgid "Move Up"
+msgstr "Перемістити вище"
+
+#: views/questions.html.php:23
+msgid "Move Down"
+msgstr "Перемістити нижче"
+
+#: views/quiz.html.php:2
+msgid "Add/Edit Chained Quiz"
+msgstr "Додати редагувати тест"
+
+#: views/quiz.html.php:8 views/results.html.php:7
+msgid "Manage Questions"
+msgstr "Управління питаннями"
+
+#: views/quiz.html.php:9
+msgid "Manage Results / Outcomes"
+msgstr "Керування результатами"
+
+#: views/quiz.html.php:13
+msgid "Quiz Title"
+msgstr "Назва тесту"
+
+#: views/quiz.html.php:15
+msgid "Final Output"
+msgstr "Кінцевий результат"
+
+#: views/quiz.html.php:17
+msgid "This is the content that is shown to the user after they complete the quiz. The following variables can be used:"
+msgstr "Це вміст, який відображається користувачеві після завершення тесту. Можна використовувати такі змінні:"
+
+#: views/quiz.html.php:20
+msgid "- The result (grade) title"
+msgstr "- Заголовок результату (оцінки)"
+
+#: views/quiz.html.php:21
+msgid "- The result (grade) text/description"
+msgstr "- Текст для опис результату (оцінки)"
+
+#: views/quiz.html.php:22
+msgid "- Points collected"
+msgstr "- Отримані бали"
+
+#: views/quiz.html.php:23
+msgid "- The number of total questions answered"
+msgstr "- Загальна кількість відповідей"
+
+#: views/quiz.html.php:24
+msgid "- The number of correctly answered questions. Multiple choice questions will be considered correctly answered when the amount of points collected on them is positive."
+msgstr "- Кількість правильно відповідей на запитання. Запитання з кількома варіантами відповідей вважатимуться правильно відповідями, якщо кількість набраних за них балів буде позитивною."
+
+#: views/quiz.html.php:25
+msgid "- The number of correctly answered questions"
+msgstr "- Кількість правильно відповідених питань"
+
+#: views/quiz.html.php:26
+msgid "- A table with the questions, answers given by the user, correct / wrong info and points collected."
+msgstr "- Таблиця з питаннями, відповідями користувача, інформацією про правильність варіантів та отриманими балами."
+
+#: views/quiz.html.php:27
+msgid "The user name of the logged in user - use it only if you require / expect logged in users. If the user is not logged in, the variable will display \"Guest\"."
+msgstr "Ім'я користувача, що зареєстрований у системі – використовуйте його, лише якщо вам потрібні/очікуються користувачі, що зареєстровані. Якщо користувач не зареєстрований, змінна відображатиме \"Гість\"."
+
+#: views/quiz.html.php:28
+msgid "The user email address if the user is logged in or email address has been requested with the option \"Send email to user\". Otherwise it will be empty."
+msgstr "Адреса електронної пошти користувача, якщо користувач увійшов у систему, або адресу електронної пошти було запрошено з опцією \"Надіслати електронного листа користувачеві\". В іншому випадку поле буде порожнім."
+
+#: views/quiz.html.php:31
+msgid "Require user login to take this quiz."
+msgstr "Вимагати реєстрацію користувача для цього тесту."
+
+#: views/quiz.html.php:30
+msgid "Limit quiz attempts to %s. (Enter 0 for unlimited attempts.)"
+msgstr "Обмежити спроби тестування до %s. (Введіть 0 для необмежених спроб.)"
+
+#: views/quiz.html.php:34
+msgid "Send me email when user completes this quiz. It will be delivered to the email address з вашої головної WP Settings page."
+msgstr "Надайте мені листа, коли користувач завершить цей тест. Він буде доставлено на адресу електронної пошти з головних налаштувань WordPress."
+
+#: views/quiz.html.php:35
+msgid "Send email to user with their result. If the user is not logged in visitor an optional \"Enter email\" field will automatically appear above the quiz."
+msgstr "Надіслати електронний лист користувачу з результатами. Якщо користувач не зареєстровано, над тестом автоматично з'явиться поле \"Введіть email\"."
+
+#: views/quiz.html.php:36
+msgid "Save source URL коли submitting the quiz (useful if you have published the quiz in multiple places on your site)."
+msgstr "Збережіть вихідну URL-адресу під час надсилання тесту (корисно, якщо ви опублікували тест у кількох місцях на своєму сайті)."
+
+#: views/quiz.html.php:37
+msgid "Send me email when user completes this quiz. Send to this email address"
+msgstr "Надіслати мені листа на цю адресу елктронної пошти коли користувач завергить тест"
+
+#: views/quiz.html.php:38
+msgid "You can enter multiple emails separated by comma"
+msgstr "Ви можете ввести кілька адрес електронної пошти, розділених комами"
+
+#: views/quiz.html.php:39
+msgid ""
+"Automatically publish this quiz in new post once I hit the \"Save\" button. (The new post will be auto-generated with the quiz title used for post title.)"
+msgstr "Автоматично опублікувати цей тест у новому посту, як тільки я натисну Кнопку \"Зберегти\". (Новий пост буде автоматично згенерований з назвою тесту, який використовується для заголовка посту.)"
+
+#: views/quiz.html.php:42
+msgid "Save Quiz"
+msgstr "Зберегти тест"
+
+#: views/quiz.html.php:56
+msgid "Title is required"
+msgstr "Потрібна назва"
+
+#: views/quiz.html.php:57
+msgid "Save source URL when submitting the quiz (useful if you have published the quiz in multiple places on your site)."
+msgstr "Зберігати URL-адресу джерела під час надсилання тесту (корисно, якщо ви опублікували тест у кількох місцях на своєму сайті)."
+
+#: views/results.html.php:2
+msgid "Manage Quiz Results/Outcomes"
+msgstr "Керування результатами тесту"
+
+#: views/results.html.php:12 views/results.html.php:25
+msgid "Result title"
+msgstr "Заголовок результату"
+
+#: views/results.html.php:13 views/results.html.php:26
+msgid "Result text/description"
+msgstr "Текст для опис результату"
+
+#: views/results.html.php:14 views/results.html.php:27
+msgid "Min. points:"
+msgstr "Мінімум балів:"
+
+#: views/results.html.php:15 views/results.html.php:28
+msgid "Max. points:"
+msgstr "Максимум балів:"
+
+#: views/results.html.php:16 views/results.html.php:29
+msgid "Optional redirect URL"
+msgstr "Перенаправлення на URL (необов'язково)"
+
+#: views/results.html.php:17 views/results.html.php:30
+msgid "If you enter this, the quiz will redirect to the URL instead of showing the \"Final Output\".
+msgstr "Якщо ви введете це, тест буде перенаправляти на цю URL замість того, щоб показувати \"Фінальний висновок\"."
+
+#: views/results.html.php:18
+msgid "Add Result"
+msgstr "Додати результат"
+
+#: views/results.html.php:31
+msgid "Save Result"
+msgstr "Зберегти результат"
+
+#: views/results.html.php:32
+msgid "Delete Result"
+msgstr "Видалити результат"
+
+#: views/results.html.php:48
+msgid "Please enter title"
+msgstr "Будь ласка, введіть заголовок"
+
+#: views/sharing-options.html.php:2
+msgid "Chained Quiz Social Sharing"
+msgstr "Розшарування тестів у соцмережах"
+
+#: views/sharing-options.html.php:6
+msgid "You can use the shortcode %s to display Facebook share button on the \"Final screen\" on your quiz."
+msgstr "Ви можете використовувати шорткод %s для відображення кнопки поділитися в Facebook на Фінальному екрані вашого тесту."
+
+#: views/sharing-options.html.php:7
+msgid "The social media buttons are provided by <a href=\"%s\" target=\"_blank"\">Arbenting</a>. Feel free to replace them with other icons."
+msgstr "Кнопки соціальних мереж надаються <a href=\"%s\" target=\"_blank"\">Arbenting</a>. Не соромтеся замінювати їх іншими значками."
+
+#: views/sharing-options.html.php:10
+msgid "Facebook and LinkedIn Sharing"
+msgstr "Розшарування у Facebook та LInkedIn"
+
+#: views/sharing-options.html.php:12
+msgid "Your Facebook App ID:"
+msgstr "Ваш Facebook App ID:"
+
+#: views/sharing-options.html.php:12
+msgid "Get one here"
+msgstr "Отримайте один тут"
+
+#: views/sharing-options.html.php:13
+msgid "Якщо ви збираєтеся, ні Facebook share button will be generated."
+msgstr "Якщо ви залишите його порожнім, кнопка поділитися у Facebook не буде створена."
+
+#: views/sharing-options.html.php:15
+msgid "Show LinkedIn button"
+msgstr "Показувати кнопку LinkedIn"
+
+#: views/sharing-options.html.php:17
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: views/sharing-options.html.php:18
+msgid "Text:"
+msgstr "Текст:"
+
+#: views/sharing-options.html.php:19
+msgid "You can use the variables {{{quiz-name}}}, {{{url}}}, {{{result-title}}} and {{{result-description}}}."
+msgstr "Ви можете використовувати змінні {{{quiz-name}}}, {{{url}}}, {{{result-title}}} та {{{result-description}}}."
+
+#: views/sharing-options.html.php:21
+msgid "If you leave title and text empty, result title and result description will "
+"be used respectively"
+msgstr "Якщо ви залишите заголовок і текст порожнім, буде використовуватися заголовок і опис сторінки результату."
+
+#: views/sharing-options.html.php:23
+msgid "IMPORTANT: Facebook needs to be able to access your site to retrieve the social sharing data. If the site is on localhost or behind a htaccess login box sharing will not work properly."
+msgstr "ВАЖЛИВО: Facebook повинен мати доступ до вашого сайту для отримання даних для розшарування. Якщо сайт знаходиться на локальному хості або закритий файлом htaccess, розшарування не буде працювати належним чином."
+
+#: views/sharing-options.html.php:25
+msgid "Twitter Sharing Options:"
+msgstr "Налаштування розшарівні у twitter:"
+
+#: views/sharing-options.html.php:27
+msgid "If you leave \"Tweet text\" empty the tweet text will be extracted from the result description. If it is empty, the result title will be used."
+msgstr "Якщо ви залишите поле \"Текст твіту\" порожнім, текст для твіту буде витягнутий з опису сторінки результату. Якщо він порожній, використовуватиметься заголовок сторінки результату."
+
+#: views/sharing-options.html.php:29
+msgid "Show Tweet button"
+msgstr "Показувати кнопку твіту"
+
+#: views/sharing-options.html.php:32
+msgid "Show count"
+msgstr "Показувати лічильник"
+
+#: views/sharing-options.html.php:33
+msgid "Via @"
+msgstr "За допомогою @"
+
+#: views/sharing-options.html.php:34
+msgid "Hashtag #"
+msgstr "Хештег #"
+
+#: views/sharing-options.html.php:35
+msgid "Tweet text (Не більше 140 chars):"
+msgstr "Текст твіту (не більше 140 символів):"
+
+#: views/sharing-options.html.php:36
+msgid "You can use the variables {{{quiz-name}}}, {{{result-title}}} and {{{result-description}}}."
+msgstr "Ви можете використовувати змінні {{{quiz-name}}}, {{{result-title}}} та {{{result-description}}}."
+
+#: views/sharing-options.html.php:37
+msgid "Text/Value of the \"Go ahead\" button"
+msgstr "Текст/значення кнопки «Вперед»"
+
+#: views/sharing-options.html.php:39
+msgid "Save All Settings"
+msgstr "Зберегти всі налаштування"
+
+#: views/sidebar.html.php:2
+msgid "Did you know?"
+msgstr "Чи ви знали?"
+
+#: views/sidebar.html.php:6
+msgid "<b>WatuPRO</b> is general purpose quiz, survey and exam plugin with rich reporting features and free integration with many popular plugins and services."
+msgstr "<b>WatuPRO</b> - це загальні тести, анкетування та плагін для іспитів з багатими можливостями звітів та безкоштовною інтеграцією з багатьма популярними плагінами та службами."
+
+#: views/sidebar.html.php:8
+msgid "Just go ahead and"
+msgstr "Просто"
+
+#: views/sidebar.html.php:8
+msgid "take the tour"
+msgstr "дивіться тур"
+
+#: views/sidebar.html.php:8
+msgid "or check the"
+msgstr "або протестуйте"
+
+#: views/sidebar.html.php:8
+msgid "online demo."
+msgstr "Демо онлайн."
+
+#: views/sidebar.html.php:10
+msgid "Purchasing WatuPRO comes with <strong>60 days refund policy</strong>, one year <strong>free upgrades</strong> and one year <strong>free support</strong>."
+msgstr "Покупка WatuPRO йде разом з <strong>60-денною можливістю повернення</strong>, одним роком <strong>безкоштовних оновлень</strong> та одним роком <strong>безкоштовної підтримки</strong>."
+
+#: views/sidebar.html.php:15
+msgid "Необхідний Support?"
+msgstr "Потрібна допомога?"
+
+#: views/sidebar.html.php:17
+msgid "Please ask your question in the"
+msgstr "Будь ласка, поставте своє питання на"
+
+#: views/sidebar.html.php:17
+msgid "support forum at Wordpress."
+msgstr "Форум підтримки WordPress"
+
+#: views/sidebar.html.php:19
+msgid "Use the forum only for issues concerning the free Chained Quiz plugin. If you have a pre-sales question about Watu PRO please contact us"
+msgstr "Використовуйте форум тільки для питань, що стосуються безкоштовного плагіна Chained Quiz. Якщо у вас є передпродажне питання про Watu PRO, зв'яжіться з нами "
+
+#: views/sidebar.html.php:19
+msgid "through our site."
+msgstr "через наш сайт."
+
+#: views/quiz.html.php:63
+msgid "Require a question based captcha to submit the quiz"
+msgstr "Вимагати вирішення капчі для участі у вікторині"
+
+msgid "User results on {{quiz-name}}"
+msgstr "Результат для {{quiz-name}}"
+
+msgid "Send me email when user completes this quiz. Send to this email address:"
+msgstr "Надіслати мені на цю елктронну пошту листа, коли хтось пройде тест"
+
+msgid "The percentage of correctly answered questions from all questions."
+msgstr "Відсоток правильно відповідей на запитання від усіх запитань."
+
+msgid "for management purposes"
+msgstr "для цілей управління"
+
+msgid "Accept comments along with the answer."
+msgstr "Приймати коментарі разом із відповіддю."
+
+msgid "Label before the comments field:"
+msgstr "	Напис перед полем для коментарів:"
+
+msgid "Your comments:"
+msgstr "Ваші коментарі:"
+
+msgid "Click here to add a new question"
+msgstr "Натисніть тут, щоб додати нове запитання"
+
+msgid "Need Support?"
+msgstr "Потрібна допомога?"
+
+msgid "Integrations"
+msgstr "Інтеграція"
+
+msgid "Integrations with newsletter services"
+msgstr "Інтеграція з сервісами розсилки новин"
+
+msgid "General Settings"
+msgstr "Налаштування"
+
+msgid "Here you can define integration with various newsletter and email marketing plugins and services. This means that a quiz is completed the email of the respondend can be subscribed to selected mailing lists. Currently supported:"
+msgstr "Тут ви можете налаштувати інтеграцію з різними плагінами та сервісами для розсилки новин та електронного маркетингу. Це означає, що після проходження тесту електронна адреса респондента може бути додана до обраних списків розсилки. Наразі підтримуються:"
+
+msgid "Arigato Autoresponder and Newsletter."
+msgstr "Автореспондер та розсилка новин Arigato."
+
+msgid "Arigato PRO Drip Marketing Suite"
+msgstr "Arigato PRO — набір інструментів для дріп-маркетингу"
+
+msgid "Note that only quizzes which have the option \"Send email to user with their result\" selected can be integrated."
+msgstr "Зверніть увагу, що інтегрувати можна лише ті тести, для яких обрано опцію «Надіслати користувачеві електронного листа з результатами»."
+
+msgid "The plugin Arigato is not installed."
+msgstr "Плагін Arigato не встановлено."
+
+msgid "The plugin Arigato PRO is not installed."
+msgstr "Плагін Arigato PRO не встановлено."
+
+msgid "Integrate with MailChimp"
+msgstr "Інтегрувати з MailChimp"
+
+msgid "Save Integrations"
+msgstr "Зберегти інтеграції"
+
+msgid "Results"
+msgstr "Результати"
